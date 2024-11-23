@@ -58,10 +58,16 @@ print(dobro)
  
  #9 - Crie uma calculadora de soma com as ferramentas que vc já conhece (Use apenas input, print e variavel)
 print("\nEXERCÍCIO 9")
-parcela1 = float(input("Digite o valor da primeira parcela: "))
-parcela2 = float(input("Digite o valor da segunda parcela: "))
-soma = parcela1+parcela2
+x = float(input("Digite um número: "))
+y = float(input("Digite um outro número: "))
+soma = x+y
+difference = x-y
+product = x*y
+quociente = x/y
 print(soma)
+print(difference)
+print(product)
+print(quociente)
 
 #10 - Crie um sistema de cadastro com as estruturas que vc já conhece (Use apenas input, print e variavel)
 print("\nEXERCÍCIO 10")
